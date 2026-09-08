@@ -42,6 +42,17 @@ Power BI
 
 ![Microsoft Fabric Retail Data Pipeline](screenshots/fabric_pipeline.png)
 
+## Data Flow
+
+1. **Source:** Retail CSV files are received from source locations.
+2. **Metadata Configuration:** Source information is maintained in a control table.
+3. **Lookup:** The pipeline reads the configured metadata.
+4. **ForEach:** Each configured source is processed dynamically.
+5. **Bronze Layer:** Raw data is ingested into the Fabric Lakehouse.
+6. **Silver Layer:** PySpark performs schema handling, deduplication, joins, partitioning, and data quality validation.
+7. **Gold Layer:** Business-ready data is prepared for analytics.
+8. **Power BI:** Gold-layer data is used for reporting and visualization.
+
 ## Technologies
 
 - Microsoft Fabric
