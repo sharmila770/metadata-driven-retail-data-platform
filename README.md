@@ -1,4 +1,4 @@
-# Retail Inventory & Sales Pipeline
+# metadata-driven-retail-data-platform/
 
 ## Overview
 
