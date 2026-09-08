@@ -7,7 +7,16 @@ PySpark, Data Pipeline, and Power BI.
 
 The project processes retail CSV files through metadata-driven ingestion,
 transformation, data quality validation, and Bronze-Silver-Gold data layers.
+## Business Use Case
 
+The pipeline is designed to process retail inventory and sales data from multiple CSV sources using a metadata-driven approach.
+
+The solution enables:
+- Centralized configuration of source files through a control table
+- Automated ingestion using Fabric Data Pipelines
+- Reliable Bronze-to-Silver data transformation using PySpark
+- Handling of schema changes, duplicates, and late-arriving data
+- Creation of business-ready Gold-layer data for Power BI reporting
 ## Architecture
 
 CSV Files
