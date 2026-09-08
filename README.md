@@ -29,6 +29,9 @@ Silver
 Gold
 ↓
 Power BI
+### Pipeline
+
+![Microsoft Fabric Retail Data Pipeline](screenshots/fabric_pipeline.png)
 
 ## Technologies
 
