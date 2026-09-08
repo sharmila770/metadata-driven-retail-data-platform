@@ -51,7 +51,19 @@ Power BI
 - SQL
 - Power BI
 
-## Key Features
+## Key Technical Highlights
+
+- Metadata-driven ingestion using control tables, Lookup, and ForEach activities
+- Dynamic pipeline execution for multiple source files
+- Bronze-Silver-Gold data architecture
+- PySpark-based data transformation in Microsoft Fabric
+- Schema evolution and handling of changing source structures
+- Deduplication and late-arriving data handling
+- Broadcast joins for optimized transformations
+- Partitioning for improved data processing
+- Rolling average calculations for sales analysis
+- Data quality validation before downstream reporting
+- Gold-layer tables designed for Power BI analytics
 
 ### Metadata-Driven Ingestion
 
