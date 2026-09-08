@@ -64,7 +64,21 @@ Power BI
 - Rolling average calculations for sales analysis
 - Data quality validation before downstream reporting
 - Gold-layer tables designed for Power BI analytics
+  
+## Skills Demonstrated
 
+- Microsoft Fabric Data Engineering
+- Fabric Data Pipelines
+- Fabric Lakehouse
+- PySpark
+- SQL
+- Metadata-driven ETL/ELT
+- Incremental and dynamic data ingestion
+- Data transformation and cleansing
+- Data quality validation
+- Delta Lake concepts
+- Data modeling
+- Power BI reporting
 ### Metadata-Driven Ingestion
 
 A metadata/control table is used to manage ingestion of multiple source
