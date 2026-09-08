@@ -133,11 +133,13 @@ Silver layer.
 
 ## Project Structure
 
-```text
-retail-inventory-sales-pipeline/
+metadata-driven-retail-data-platform/
 │
 ├── README.md
 │
-└── notebooks/
-    ├── 00_create_control_table.ipynb
-    └── 01_Bronze_To_Silver.ipynb
+├── notebooks/
+│   ├── 00_create_control_table.ipynb
+│   └── 01_Bronze_To_Silver.ipynb
+│
+└── screenshots/
+    └── fabric_pipeline.png
