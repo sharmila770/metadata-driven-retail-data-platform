@@ -52,7 +52,14 @@ Power BI
 6. **Silver Layer:** PySpark performs schema handling, deduplication, joins, partitioning, and data quality validation.
 7. **Gold Layer:** Business-ready data is prepared for analytics.
 8. **Power BI:** Gold-layer data is used for reporting and visualization.
+   
+## Project Results
 
+- Automated ingestion of multiple retail data sources using metadata-driven pipelines
+- Reduced manual pipeline configuration through control-table-driven processing
+- Created a structured Bronze-Silver-Gold data architecture in Microsoft Fabric
+- Improved data reliability through deduplication, schema evolution, and data quality validation
+- Produced business-ready Gold-layer data for Power BI reporting
 ## Technologies
 
 - Microsoft Fabric
